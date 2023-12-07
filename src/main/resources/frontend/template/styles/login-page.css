@@ -1,0 +1,95 @@
+body, html {
+    font-family: Arial, sans-serif;
+}
+
+.login-page {
+    display: flex;
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 40%;
+    margin-top: 2.5%;
+    text-align: center;
+}
+
+.inst-img {
+    margin-left: 19%;
+    width: 37%;
+}
+
+.inst-img img {
+    width: 100%;
+}
+
+.login-main-container {
+    height: 100%;
+    width: 35%;
+    margin: auto;
+    border: green;
+
+}
+
+.login-container{
+    border: thin groove #dadada;
+}
+
+
+.logo-section img {
+    width: 50%;
+    margin: 7% auto;
+    display: block;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+form input[type="text"], form input[type="password"] {
+    width: 100%;
+    padding: 5%;
+    margin: 5% auto ;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+#submit {
+    width: 111%;
+    padding: 2.5%;
+    background-color: #0094f4;
+    margin-bottom: 2%;
+    margin-top: 20%;
+    border-radius: 8px;
+    border: none;
+    opacity: .7;
+    color: white;
+}
+.forgot-password{
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+.forgot-password a {
+    text-decoration: none;
+    color: black;
+    font-size: 73%;
+    opacity: .9;
+
+}
+
+.signup-section {
+    padding-top: 7%;
+    padding-bottom: 6%;
+    height: 15%;
+    border: thin groove #dadada;
+    width:  100%;
+    margin: auto;
+}
+
+.signup-section span{
+    font-size: 90%;
+    opacity: .9;
+}
+
+.download-section {
+    margin-top: 4%;
+}

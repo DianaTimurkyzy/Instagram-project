@@ -1,0 +1,42 @@
+body, html {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar-logo img{
+    width: 50%;
+    padding-top: 13%;
+    display: block;
+    padding-left: 9%;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 16%;
+    background-color: white;
+    border-right: 1px solid gray;
+}
+.side-section p {
+    padding-left: 10%;
+}
+
+.house-icon, .message-icon, .more-icon {
+    width: 10%;
+    padding-right: 10%;
+}
+
+.profile-picture-sidebar img{
+    width: 10%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: 9%;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-picture-sidebar a{
+    padding-left: 9%;
+}

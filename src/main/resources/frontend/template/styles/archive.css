@@ -1,0 +1,26 @@
+body, html {
+    font-family: Arial, sans-serif;
+}
+
+.archive-content {
+    margin-left: 16%;
+    padding: 0 10% 0;
+}
+
+.archive-title{
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+.photo-grid-archive {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5%;
+    padding: 2% 0;
+}
+
+.photo-grid-archive img{
+    width: 100%;
+    height: 100%;
+    position: static;
+}
